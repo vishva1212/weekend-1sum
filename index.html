@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="html-form">
+		<meta name="key-words" content="html-form,input,taxt-area,input-types,select,data-list">
+		<meta name="author" content="Berners-Lee">
+		<meta name="view-port" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="refresh" content="40">
+    </head>
+    <body>
+		<script>
+		//1 sum
+		 const users = [
+					  {
+						first_name: 'Mike',
+						last_name: 'Sheridan'
+					  },
+					  {
+						first_name: 'Tim',
+						last_name: 'Lee'
+					  },
+					  {
+						first_name: 'John',
+						last_name: 'Carte'
+					  }
+					];
+			let name=users.map (function (user){
+			 return user.first_name+user.last_name;
+			}
+			)
+			console.log(name);
+			document.write(name);
+		</script>
+	</body>
+</html>
